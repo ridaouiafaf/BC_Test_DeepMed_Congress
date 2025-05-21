@@ -17,18 +17,23 @@ export const formatTimestamp = (date: Date): string => {
 // Sample models for the dropdown
 export const availableModels: Model[] = [
   { 
-    id: 'model-a', 
-    name: 'Model A', 
+    id: 'densenet', 
+    name: 'DenseNet-121', 
     description: 'General purpose breast cancer detection model' 
   },
   { 
-    id: 'model-b', 
-    name: 'Model B', 
+    id: 'resnet', 
+    name: 'ResNet-50', 
     description: 'Specialized for mammography images' 
   },
   { 
-    id: 'model-c', 
-    name: 'Model C', 
+    id: 'efficientnet', 
+    name: 'EfficientNet', 
+    description: 'Specialized for ultrasound images' 
+  },
+  { 
+    id: 'vit', 
+    name: 'ViT', 
     description: 'Advanced model with higher accuracy for ultrasound images' 
   },
 ];
